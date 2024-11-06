@@ -1,130 +1,304 @@
-body {
-    background-color: #1C1B1B;
+body{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    background-color: #262625 ;
     color: white;
-    margin: 0;
-    padding: 0;
-}
-
-nav {
-    background-color: white;
-    color: black;
-    padding: 1em;
-    margin: 0;
-}
-
-nav ul {
-    display: flex;
-    justify-content: space-evenly;
+    margin-left: 0;
+    margin-top:1.5em;
     padding: 0;
     margin: 0;
-    text-decoration: none;
+    padding:0;
 }
 
-nav ul li {
-    list-style-type: none;
-    font-size: 10px;
-}
 
-nav a {
-    text-decoration: none;
-    color: #1C1B1B;
-}
-
-main h1 {
-    font-size: 10px;
-    text-align: center;
-}
-
-article {
-    font-size: 10px;
-    font-weight: normal;
-    text-align: center;
-    margin-right: 2.3em;
-    margin-left: 2.3em;
-}
-
-h2 {
-    text-align: center;
-    font-size: 15px;
-}
-
-.store-picture-landing {
-    display: flex; /* Use flex to center */
-    justify-content: center;
-    align-items: center; /* Center vertically */
-    margin: 2em auto; /* Center horizontally with auto margins */
-    width: 19em;
-}
-
-.logo {
+.position-logo-{
     display: flex;
     justify-content: center;
-    align-items: center; /* Center vertically */
-    margin: 2em auto; /* Center horizontally with auto margins */
-    width: 19em;
+    align-items: center;
+}
+.logo-home{
+    width: 18em;
+    margin-top: 2em;
 }
 
-footer {
-    margin-top: 3em;
-    background-color: white;
+main{
+    text-align: center;
+}
+
+main h1{
+    font-size: .9em;
+    color: #D4F291;
+    font-weight: 600;
+    margin-bottom: 1.5em;
+}
+
+main a {
+    text-decoration: none;
     color: black;
 }
 
-footer img {
-    width: 10em;
-    margin-left: 1em;
+.discover-now-button{
+    background-color: #E6E6E6;
+    padding: .5em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    border-radius: 0.5em;
+    color: black;
 }
 
-.banner-store {
-    background-image: url(Afbeeldingen/store-banner2.png);
-    background-size: cover;
-    background-position: center; /* Center the background image */
-    width: 100%;
-    height: 10em;
+.store-pic-home{
+    justify-content: center;
+    width: 20em;
+    margin-top: 2em;
+}
+
+main h2{
+    font-size: .9em;
+    color: #D4F291;
+}
+main section p {
+    font-weight: lighter;
+    margin-bottom: 2em;
+}
+
+.plug-section{
+    justify-content: center;
+    width: 22em;
     margin-top: 1em;
-    position: relative; /* Position relative to use absolute positioning inside */
 }
 
-.banner-lookbook {
-    background-image: url(Afbeeldingen/lookbook-banner2.png);
-    background-size: cover;
-    background-position: center; /* Center the background image */
-    width: 100%;
-    height: 10em;
-    position: relative; /* Position relative to use absolute positioning inside */
+
+.back-button{
+    font-size:.8em;
+    text-decoration: none;
+    background-color:#D4F291;
+    padding: .2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 0.5em;
+    color: black;
+    margin-top: 1em;
+    margin-left: .7em;
+    position: fixed;
+    z-index: 2;
 }
 
-.banner-about-us {
-    background-image: url(Afbeeldingen/about-us-banner2.png);
+main img{
+    width: 12em ;
+    margin-top: 2.5em;
+    margin-bottom: 1.7em;
+}
+
+/* Algemene CSS voor de boxen */
+.box1, .box2, .box3, .box4 {
+    width: 100vw; /* Volledige breedte van het scherm */
+    height: 10em; 
     background-size: cover;
-    background-position: center; /* Center the background image */
-    width: 100%;
-    height: 10em;
-    margin-bottom: 1em;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0; 
+    padding: 0; 
+    margin-bottom: 2em;
+}
+
+.box4{
+    width: 100vw; /* Volledige breedte van het scherm */
+    height: 10em; 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0; 
+    padding: 0; 
+    margin-bottom: 0;
+}
+
+.box1 {
+    background-image: url('Afbeeldingen/dkb.png');
+}
+
+.box2 {
+    background-image: url('Afbeeldingen/getinspired-banner.png');
+}
+
+.box3 {
+    background-image: url('Afbeeldingen/whyvintage-banner.png');
+}
+
+.box4 {
+    background-image: url('Afbeeldingen/getinspired-banner.png');
+}
+
+.box1 h2, .box2 h2, .box3 h2, .box4 h2 {
+    font-size: 1.5em;
+    color: white;
+}
+
+.discover-button1, .discover-button2, .discover-button3 {
+    background-color: #D4F291;
+    border: none;
+    padding: 0.3em 1.7em;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 1.5em;
+    margin-top: 0;
+}
+
+.box-content1, .box-content2, .box-content3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: relative;
 }
 
-.button-position {
-    position: absolute; /* Position it absolutely within .banner-store */
-    right: 1em; /* Distance from the right edge */
-    top: 50%; /* Center vertically */
-    transform: translateY(-50%); /* Adjust to the exact vertical center */
-    width: 10em;
+.inspired-box{
+    margin-bottom:2em;
+}
+.box-content2 p{
+    font-size: .6em;
+    margin-top: 0;
 }
 
-h3 {
-    text-align: center;
-    font-size: 30px;
-    margin: 0;
-    padding-top: 0.5em;
+
+/*STORE PAGE*/
+.dukescupboard-store-photo{
+    width: 100vw; 
+    height: 10em; 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0; 
+    padding: 0; 
+    margin-bottom: 2em;
+}
+.kelder-store-photo{
+    width: 100vw; 
+    height: 10em; 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0; 
+    padding: 0; 
+    margin-bottom: 2em;
 }
 
-h4 {
-    text-align: center;
-    font-size: 15px;
-    margin: 0;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+.vintagemarbles-store-photo{
+    width: 100vw; 
+    height: 10em; 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0; 
+    padding: 0; 
+    margin-bottom: 2em;
 }
+
+.inspirationheadbox{
+    width: 100vw; 
+    height: 10em; 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0; 
+    padding: 0; 
+    margin-bottom: 2em;
+}
+
+.dukescupboard-store-photo{
+    background-image:url(Afbeeldingen/dkb.png);
+}
+
+.kelder-store-photo{
+    background-image:url(Afbeeldingen/kelder-banner.png);
+}
+
+.vintagemarbles-store-photo{
+    background-image:url(Afbeeldingen/vintagemarbles-banner.png);
+}
+
+.inspirationheadbox{
+    background-image:url(Afbeeldingen/getinspired-banner.png);
+}
+.content-dc h5{
+    font-size: 2em;
+    margin-bottom: .5em;
+    margin-top: 1em;
+}
+
+.content-dc p {
+    font-size: .7em;
+    color: #D4F291;
+}
+
+
+main article {
+    margin:1em;
+    font-weight: lighter;
+}
+  
+article span{
+    color: #D4F291;
+}
+
+main section h6{
+    font-size: 1.5em;
+    margin-bottom: .5em;
+}
+
+div.scroll-container {
+    background-color:#262625;
+    overflow: auto;
+    white-space: nowrap;
+    margin-bottom: 5em;
+  }
+  
+  div.scroll-container img {
+    padding: 1em;
+    padding-left: 1.5em;
+    padding-right: 1em;
+    width:70%;
+  }
+
+Main article h6{
+    font-size: 1em;
+    color: hotpink;
+}
+
+div.scroll-container-polaroid {
+    background-color:#E6E6E6;
+    overflow: auto;
+    white-space: nowrap;
+    margin:0;
+    padding-top: .5em;
+    padding-bottom: 2em;
+    padding-right: 2em;
+    margin-right: 0;
+    margin-bottom: 3em;
+  }
+
+  
+  div.scroll-container-polaroid img {
+    margin:0;
+    padding:0;
+    padding-left:1em;
+    padding-right:0;
+    width:60%;
+  }
