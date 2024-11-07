@@ -84,8 +84,8 @@ main section p {
 }
 
 main img{
-    width: 12em ;
-    margin-top: 2.5em;
+    width: 60%;
+    margin-top: 3em;
     margin-bottom: 1.7em;
 }
 
@@ -106,7 +106,7 @@ main img{
 
 .box4{
     width: 100vw; /* Volledige breedte van het scherm */
-    height: 10em; 
+    height: 13em; 
     background-size: cover;
     background-position: center;
     display: flex;
@@ -115,7 +115,8 @@ main img{
     position: relative;
     margin: 0; 
     padding: 0; 
-    margin-bottom: 0;
+    margin-bottom: 2em;
+    margin-top: 0;
 }
 
 .box1 {
@@ -137,6 +138,16 @@ main img{
 .box1 h2, .box2 h2, .box3 h2, .box4 h2 {
     font-size: 1.5em;
     color: white;
+}
+
+.box4 p{
+    font-size: .8em;
+    margin-top: 0;
+    color: #D4F291;
+}
+.box4 h2{
+    margin-bottom:.3em;
+    margin-top:1.5em
 }
 
 .discover-button1, .discover-button2, .discover-button3 {
@@ -274,7 +285,7 @@ div.scroll-container {
     padding: 1em;
     padding-left: 1.5em;
     padding-right: 1em;
-    width:70%;
+    width:80%;
   }
 
 Main article h6{
@@ -283,7 +294,7 @@ Main article h6{
 }
 
 div.scroll-container-polaroid {
-    background-color:#E6E6E6;
+    background-color:#262625;
     overflow: auto;
     white-space: nowrap;
     margin:0;
@@ -291,7 +302,7 @@ div.scroll-container-polaroid {
     padding-bottom: 2em;
     padding-right: 2em;
     margin-right: 0;
-    margin-bottom: 3em;
+    margin-bottom: 0;
   }
 
   
@@ -300,5 +311,58 @@ div.scroll-container-polaroid {
     padding:0;
     padding-left:1em;
     padding-right:0;
-    width:60%;
+    width:80%;
   }
+
+  .name-box{
+    margin-bottom: 0;
+    padding-top: 1em;
+    background-color:#262625;
+  }
+
+  .name-box h2{
+    margin:0;
+    font-size: 1em;
+    color:#D4F291;
+    font-family:Arial, Helvetica, sans-serif;
+
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px; 
+    height: 8px; 
+}
+
+::-webkit-scrollbar-track {
+    background: #262625; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #D4F291; 
+    border-radius: 10px; 
+    border: 2px solid #262625; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #A3D178; /* Color when hovering over the thumb */
+}
+
+
+.about-us-header{
+    margin-bottom: 0;
+}
+
+.about-us-box{
+    background-image:url(Afbeeldingen/whyvintage-banner.png) ;
+    width: 100vw; 
+    height: 10em; 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0; 
+    padding: 0; 
+    margin-bottom: 2em;
+}
